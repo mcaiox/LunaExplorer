@@ -13,7 +13,7 @@ import axios from "axios";
 
 function Container() {
   //users holds array of user objects from api and when api is filtered and sorted
-  //searchedUser holds string typed into Search component
+  //searchedUser holds string typed into Search component/
   //buttonText holds default text of button and is changed when button is clicked (changes to "Reset" and back to "Alphabetize" when "Reset" is clicked)
   const [users, setUsers] = useState([]);
   const [searchedUser, setSearchedUser] = useState("");
