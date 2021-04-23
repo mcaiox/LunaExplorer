@@ -1,5 +1,6 @@
 .jumbotron {/*Sets background color, font color and font to use serif*/
-    background-color: blueviolet;
+    background-color: rgb(226, 49, 43);
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }

@@ -8,9 +8,11 @@ function TableBodyItem(props) {
                 <img alt={props.name} src={props.picture}></img>
             </td>
             <td>{props.name}</td>
-            <td>{props.phone}</td>
+            <td>{props.employeeID}</td>
+            <td>{props.club}</td>
             <td>{props.email}</td>
-            <td>{props.dob}</td>
+            <td>{props.skills}</td>
+            <td>{props.newSkill}</td>
         </tr>
     );
 };

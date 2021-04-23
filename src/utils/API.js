@@ -4,7 +4,7 @@ import axios from "axios";
 //'Inc' calls only for the picture, name, phone, email and dob
 export default {
     getUsers: function() {
-        return axios.get("https://randomuser.me/api/?results=10&nat=us&seed=0afe8ba584174675&inc=picture,name,phone,email,dob")
+        return axios.get('https:and-apollo-slackbot.herokuapp.com/employees')
     }
 };
 
