@@ -8,11 +8,9 @@ function TableHead() {
                 <th scope="col">Picture</th>
 
                 <th scope="col">Name</th>
-                <th scope="col">EmployeeID</th>
                 <th scope="col">Club</th>
                 <th scope="col">Email</th>
                 <th scope="col">Skills</th>
-                <th scope="col">New Skill</th>
             </tr>
         </thead>
     );
